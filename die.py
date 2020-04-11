@@ -4,7 +4,7 @@ import random
 class Die:
     """ A class representing a single die"""
 
-    def __init__(self, num_sides=6):
+    def __init__(self, num_sides):
         """ Assume a six sided die"""
         self.num_sides = num_sides
 
